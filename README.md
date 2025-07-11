@@ -32,19 +32,13 @@ cp .env.example .env
 
 Edit file `.env` sesuai kebutuhan, terutama konfigurasi database.
 
-### 4. Generate Application Key
-
-```bash
-php artisan key:generate
-```
-
-### 5. Migrasi dan Seed Database
+### 4. Migrasi dan Seed Database
 
 ```bash
 php artisan migrate --seed
 ```
 
-### 6. Jalankan Server Lokal
+### 5. Jalankan Server Lokal
 
 ```bash
 php artisan serve
